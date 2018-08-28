@@ -30,7 +30,9 @@ from sklearn import metrics
 
 
 load = librosa.core.load('0.wav',sr=None,duration=t*60)
+
 data = load[0]
+
 fs = load[1]
 
 Extracting features:
