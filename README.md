@@ -12,12 +12,19 @@ Research suggested features like, zero crossing rate,root mean square energy, me
 After having training logs ready and audio files ready then the next step was to use unsupervised learning to check accuracy using different features. The code for that is following:
 
 from scipy.io import wavfile
+
 from python_speech_features import mfcc
+
 from python_speech_features import delta
+
 from python_speech_features import logfbank, ssc
+
 from scipy import linalg
+
 from scipy.fftpack import fft
+
 import librosa
+
 from sklearn import metrics
 
 
